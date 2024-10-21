@@ -5,7 +5,7 @@ int roman (unsigned,int,char);
 int main()
 {
     unsigned a = 0;
-    printf("Enter number from 1 to 4999 and press ENTER:");
+    printf("Enter number from 1 to 4998 and press ENTER:");
     scanf("%u", &a);
     if(a > 4999 || a == 0)
     {
